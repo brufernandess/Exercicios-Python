@@ -1,6 +1,7 @@
-print('----'*20)
-print('----------EMPRESTIMO BANCARIO----------')
-print('----'*20)
+# Exercício 02 - Simulando um emprestimo
+print('-'*80)
+print('EMPRESTIMO BANCARIO '.center(80))
+print('-'*80)
 casa=float(input('Digite o valor da casa: R$'))
 salario=float(input('Digite seu salário: R$'))
 anos=int(input('Digite em quantos anos voce deseja pagar: '))
