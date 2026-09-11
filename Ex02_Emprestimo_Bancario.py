@@ -8,7 +8,7 @@ anos=int(input('Digite em quantos anos voce deseja pagar: '))
 
 pc= (casa/anos)/12
 porcentagem= (salario*30 /100)
-
+print(f'Para pagar uma casa de {casa}, sua prestação fica {pc:.2f} em {anos} anos')
 if pc >= porcentagem:
     print(f'Infelizmente seu emprestimo \33[4;7mNÃO\33[m foi aprovado')
 else:

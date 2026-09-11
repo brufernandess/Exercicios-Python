@@ -1,4 +1,7 @@
 # Exercicio 09 - Simulando Compras e Taxas
+print('-'*50)
+print('\33[7mQUERÔ STORE\33[m'.center(50))
+print('-'*50)
 valor=float(input('Digite o valor do produto: R$ '))
 
 opcao=int(input('[1] À vista dinheiro/cheque \n'
