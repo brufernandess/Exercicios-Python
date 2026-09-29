@@ -1,0 +1,12 @@
+# Exercício 31 - Tabela do Brasileirão TUPLAS
+print('==*=='*50)
+brasileirão= ('Flamengo', 'Palmeiras', 'Athlético', 'Fluminense','Bahia','Cruzeiro','Atlético-MG','Santos','Coritiba','Bragantino','São Paulo', 'Botafogo', 'Vitória', 'Corinthias','Mirassol','Vasco', 'Grêmio','Internacional','Remo','Chapecoense')
+print(f'A lista dos times do Brasileirão é: {brasileirão}')
+print('==*=='*50)
+print(f'Os 5 primeiros colocados são: {brasileirão[:5]}')
+print('==*=='*50)
+print(f'Os últimos 4 colocados são {brasileirão[-4:]}')
+print('==*=='*50)
+print(f'Times em Ordem Alfabética: {sorted(brasileirão)}')
+print('==*=='*50)
+print(f'A Chapecoense está na {brasileirão.index('Chapecoense')+1} posição')
